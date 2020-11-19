@@ -1,0 +1,21 @@
+button {
+  display: block;
+  padding: 5px 10px;
+  border: transparent;
+  background-color:#fff;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+
+  &.success {
+    background-color: #13ce66;
+    color: #fff;
+  }
+
+  &:focus {
+    outline: 0; /* Removes the default blue ring */
+  
+    /* Now, let's create our own focus style */
+    box-shadow: 0 0 0 2px black;
+  }
+}
